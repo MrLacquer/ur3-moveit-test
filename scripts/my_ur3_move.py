@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# Author: Hyeonjun Park, Ph.D. candidate
+# Affiliation: Human-Robot Interaction LAB, Kyung Hee University, South Korea
+# koreaphj91@gmail.com
+# init: 9 Apr 2019
+# revision: 17 Feb 2020
+
 import sys
 import rospy
 import tf
