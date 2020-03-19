@@ -58,8 +58,15 @@ $ roslaunch ur3_moveit_config moveit_rviz.launch config:=true
 $ roslaunch ur_modern_driver ur3_bringup.launch robot_ip:=IP_OF_THE_ROBOT 
 $ roslaunch ur3_moveit_config ur3_moveit_planning_execution.launch
 
+- Registration
+$ cd ~/catkin_ws/src/ur3-moveit-test/script
+$ chmod +x ur3_move.py
+$ chmod +x ur3_demo.py 
+
 - Controlling the URx manipulator:
-$ rosrun ur3_move.py 
+$ rosrun ur3-moveit-test ur3_move.py 
+or
+$ rosrun ur3-moveit-test ur3_demo.py 
 ```
 ## Demo
 
