@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Author: Hyeonjun Park, Ph.D. candidate
 # Affiliation: Human-Robot Interaction LAB, Kyung Hee University, South Korea
